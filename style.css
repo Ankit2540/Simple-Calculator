@@ -1,0 +1,45 @@
+    body{
+        width: 100%;
+        height: 100%;    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #32363a;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+    }
+    input{
+        color: #fff;
+        padding: 17px;
+        outline: none;
+        font-size: 35px;
+        font-family: cursive;
+        margin: 5px 5px 5px 5px;
+        border: 2px solid #da652f;
+    }
+    .num{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+    .text{
+        width: 305px;
+        height: 40px;
+        border-radius: 20px;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-bottom: 12px;
+        border: 2px solid #da652f;
+        background-color: black;
+    }
+    .main{
+        display: inline-block;
+    }
+    .maincolor{
+        background-color: rgb(54, 50, 50);
+    }
